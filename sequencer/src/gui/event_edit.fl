@@ -138,7 +138,7 @@ else
 		
 	e->status( opcode );
 
-	Event_Widget *ew = v->value();
+	Event_Widget *ew;
 
 	if ( ew && ew->ev() )
 		e->timestamp( ew->ev()->timestamp() );
